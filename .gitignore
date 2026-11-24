@@ -1,0 +1,37 @@
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Banco de dados local e dados financeiros de teste
+*.db
+*.sqlite
+*.sqlite3
+
+# Imagens e mídias enviadas pelo usuário durante os testes (mantém apenas a pasta)
+assets/user_media/*
+!assets/user_media/.gitkeep
+
+# Arquivos de ambiente e segredos
+.env
+.env.*
+
+# IDEs e Editores (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Builds e empacotamento (Flet / Android / PyInstaller)
+build/
+dist/
+*.aab
+*.apk
+*.spec
